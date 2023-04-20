@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list 3.0</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>To do List 3.0</h1>
+    <div id="container">
+        <form id="myForm">
+            <div id="product">
+                <div>
+                    <label for="name">Name</label>
+                </div>
+                <div>
+                    <input type="text" id="name" placeholder="Enter your Name"/>
+                </div>
+                <br>
+                <div>
+                    <label for="quantity">Quantity</label>
+                </div>
+                <div>
+                    <input type="number" id="quantity" placeholder="Enter Quantity"/>
+                </div>
+                <br>
+                <div>
+                    <label for="priority">Priority</label>
+                </div>
+                <div>
+                    <select id="priority">
+                        <option hidden>Select Priority</option>
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div id="sub">
+                    <input type="submit" value="Submit"/>
+                </div>
+        </form>
+        </div>
+        <div id="tableDiv">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Priority</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>

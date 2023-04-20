@@ -1,0 +1,54 @@
+*{
+    box-sizing:border-box;
+}
+#container{
+    border:1px solid transparent;
+    height:68vh;
+    width:100%;
+    padding-left:2%;
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+}
+#myForm{
+    border:1px solid transparent;
+    height:42vh;
+    width:20%;
+    padding:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top:20px;
+}
+#product input{
+    width:100%;
+}
+#product label{
+    font-size:18px;
+}
+#sub > input{
+    border:none;
+    background-color:green;
+    color:white;
+    padding:5px;
+}
+#sub > input:hover{
+    background-color:orange;
+    cursor:pointer;
+}
+#tableDiv{
+    border:1px solid transparent;
+    height:100%;
+    width:60%;
+    padding-left:2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top:15px;
+}
+table{
+    border-collapse:collapse;
+    width:80%;
+}
+h1{
+    text-align:center;
+    font-size:40px;
+    background-color:green;
+    color:whitesmoke;
+}
